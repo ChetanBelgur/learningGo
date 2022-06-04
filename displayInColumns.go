@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	//Loop Index is defined and used diredtly in the loop
+	//Loop Index is defined and used directly in the loop
 	for loopIndex := 0; loopIndex < 10; loopIndex++ {
 		if loopIndex%2 == 0 {
 			fmt.Print(loopIndex)
